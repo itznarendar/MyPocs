@@ -1,0 +1,36 @@
+{
+  "name": "oauth2-server-example-mongodb",
+  "version": "0.0.1",
+  "description": "Example for using node-oauth2-server with a mongodb backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "narendar",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.19.0",
+    "config": "^1.25.1",
+    "connect": "^3.6.6",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^5.0.1",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^8.0.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.18",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "nodemon": "^1.19.0",
+    "oauth2-server": "^v3.0.0-b3.1",
+    "reloadify": "^0.2.2",
+    "socket.io": "^1.7.2",
+    "ws": "^7.0.0"
+  }
+}
